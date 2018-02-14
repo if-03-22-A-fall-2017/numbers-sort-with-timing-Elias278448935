@@ -20,6 +20,11 @@
 *** Basically two functions to sort arrays of integer elements. Furthermore, a function
 *** to initialize an array with a number of random elements.
 */
+#include <stdio.h>
+#include <stdlib.h>
 
+void bubble_sort(int* array, int small);
+void insertion_sort(int* array, int small);
+int* init_random(int* array, int small);
 
 #endif
